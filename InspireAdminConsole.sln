@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InspireAdminConsole", "src\InspireAdminConsole.csproj", "{A95F7F0D-B275-4FE1-8207-EFE3F56CA3D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnspireAdminConsoleTest", "test\InnspireAdminConsoleTest\InnspireAdminConsoleTest.csproj", "{719D6DF3-42CA-46A9-B77C-267434E24086}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InnspireAdminConsoleTest", "test\InnspireAdminConsoleTest\InnspireAdminConsoleTest.csproj", "{719D6DF3-42CA-46A9-B77C-267434E24086}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
