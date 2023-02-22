@@ -1,4 +1,4 @@
-using InspireAdminConsole;
+using InnspireAdminConsole;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
