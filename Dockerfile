@@ -12,3 +12,8 @@ FROM nginx:alpine AS final
 WORKDIR /usr/share/nginx/html
 COPY --from=publish /app/publish/wwwroot/ .
 COPY ./build/nginx.conf /etc/nginx/nginx.conf
+RUN touch /var/run/nginx.pid
+RUN mkdir -p /var/cache/nginx
+RUN chown -R nginx:nginx /usr/share/nginx/html /var/run/nginx.pid /var/cache/nginx
+USER nginx
+EXPOSE 8080
